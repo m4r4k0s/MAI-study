@@ -1,0 +1,74 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Form_1
+{
+    class Program
+    {
+        public interface F
+        {
+            void mf();
+            int Ff();
+        }
+        public interface B : F// при наследовании интерфейса, методы определенные в них, могут быть определены или нет, уже по усмотрению, но они существуют в унаследованном интерфейсе
+        {
+            void mb();
+            int Fb();
+        }
+        class E
+        {
+            public E() { this.e = 1; Console.WriteLine("Constructor E"); }
+            ~E() { }
+            public virtual int Fe(int e) { return this.e = e + 1; }
+            protected int e { get; set; }
+        }
+        class C : E, F
+        {
+            public C() { this.c = 2; Console.WriteLine("Constructor C"); }
+            ~C() { }
+            public virtual void mf() { Console.WriteLine("method F of class C"); }
+            public virtual int Ff() { return this.c = this.c + 1; }
+            public override int Fe(int e) { return this.e + e; }
+            public virtual void Fc() { Console.WriteLine("Fucntion of class C"); }
+            protected int c { get; set; }
+        }
+        class A : C, B
+        {
+            public A() { this.a = 3; Console.WriteLine("Constructor A"); }
+            ~A() { }
+            public void mb() { Console.WriteLine("Method B of class A"); }
+            public int Fb() { return this.a = this.a + 2; }
+            public override int Fe(int e) { return base.Fe(e); }
+            public override void Fc() { Console.WriteLine("Fucntion of class C in class A"); }
+            public override void mf() { Console.WriteLine("method F of class A"); }
+            public override int Ff() { return this.a + 5; }
+            protected int a { get; set; }
+        }
+
+        static void Main(string[] args)
+        {
+            F f = null;
+            f = new C();
+            Console.WriteLine("f.Ff={0}", f.Ff()); // выведет 3
+            f.mf();
+            Console.WriteLine();
+            f = new A();
+            Console.WriteLine("f.Ff={0}", f.Ff());// выведет 8
+            f.mf();
+            Console.WriteLine();
+            A a = new A();
+            a.mf();
+            a.Fc();
+            Console.WriteLine("a.Fe()={0}", a.Fe(10));// выведет 11
+            Console.WriteLine();
+            B b = null;
+            b = new A();
+            b.mb();
+            Console.WriteLine("b.Fb()={0}", b.Fb());// выведет 5
+            Console.ReadKey();
+        }
+    }
+}

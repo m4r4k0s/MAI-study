@@ -1,0 +1,135 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace lab9._1
+{
+    class Program
+    {
+        public delegate void Str(string s);//делегаты - это указатели на методы и с помощью делегатов мы можем вызвать данные методы.
+        public delegate int Sum(int x, int y);// сначала идёт ключевое слово delegate, потому тип возращаемого типа, название и параметры в скобках.
+        public delegate void Ob();
+
+        static void Main(string[] args)
+        {
+            Str str = null;// создаем переменную делегата
+            str = MessageShow;// присваиваем адрес метода
+            MessageShow("Иди работай с кодом! Бестолочь");// он обратится к статическому методу в этом классе и выведет строчку, т.к. мы передаем в качестве параметра строку
+            Sum sum = SumF;
+            Console.WriteLine($"SumF(20, 17) = {SumF(20, 17)}");
+            Console.WriteLine();
+            Ob ob = null;
+            ob += Pr;// к этой переменной делегата прибавим строчку для вывода
+            ob();// Привет
+            Str str1 = new Str(MessageShow);// ещё один способ передачи методов, создание объекта делегата с помощью конструктора в который передается нужный метод
+            MessageShow("Нормально блин");
+
+            Console.WriteLine();
+            //ob = ob + Ds;   // или ob += Ds;
+            //ob();// Привет, Всё с тобой понятно, пока.
+            //Console.WriteLine();
+
+            Ob s = delegate ()// создание анонимного метода
+            {//создание анонимного метода начинается с ключевого слова delegate, после которого в скобках передаётся количество параметров и идёт тело метода
+                Console.WriteLine("Мб лучше сыграем?:D");
+            };
+            s();
+            Console.WriteLine();
+            MessaShow2("Да пошли, не ломайся :P", delegate (string tr)
+            {
+                Console.WriteLine(tr);
+            });
+            ob -= Pr;
+            Console.WriteLine();
+            ob += Ds;
+            ob();// Всё с тобой понятно, пока.
+            Console.ReadKey();
+        }
+        public static void MessaShow2(string s, Str str)
+        {
+            str(s);
+        }
+        public static void MessageShow(string s)
+        {
+            Console.WriteLine(s);
+        }
+        public static int SumF(int x, int y)
+        {
+            return x + y;
+        }
+        public static void Pr()
+        {
+            Console.WriteLine("Привет");
+        }
+        public static void Ds()
+        {
+            Console.WriteLine("Всё с тобой понятно, пока");
+        }
+    }
+}
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace lab9._2
+{
+    class Program
+    {
+        delegate void N();
+        delegate string Str(string s);
+        delegate int Sum(int x, int y);
+        delegate int Sum1(int x);
+        delegate int X(ref int x);
+
+        static void Main(string[] args)
+        {// лямбда выражения создаются с помощью делегатов
+            Sum sum = (x, y) => x + y;// самое простое лямбда выражение. В скобках передается количество параметров, после знака => выолняется блок выражений
+            Console.WriteLine($"sum(10,2) = {sum(10, 2)}");// параметры в скобках должны соответствовать типам и количеству параметров в делегате
+            Console.WriteLine();
+
+            Sum1 sum1 = x => x++;
+            Console.WriteLine($"sum1(1) = {sum1(1)}");
+            Console.WriteLine();
+
+            Str str = (s) => "Ну наконец-то";
+            Console.WriteLine(str);
+            Console.WriteLine();
+
+            N n = () => Console.WriteLine("А эти лямбда выражения прикольные");
+            n();
+            Console.WriteLine();
+
+            N n1 = () => Message();// создали объект n1 который вызывает метод Message()
+            n1();                   // Ну привет
+            Console.WriteLine();
+
+            int n2 = 19;
+            X x1 = (ref int r) => r++; // при передаче по ссылке нужно указывать и в делегате что мы передаем по ссылке
+            Console.WriteLine($"x1(ref n2) = {x1(ref n2)}");
+
+
+            List<int> arr = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+           // Console.WriteLine(arr.First<int>());// вывод первого элемента массива в листе
+            arr.Add(15);
+            arr.ForEach(delegate (int i)// использование перебора элементов массива с помощью делегатов и вывод их
+            {
+                //Console.Write($"{i} ");
+            });
+            //arr.ForEach((i) => Console.WriteLine(i));// использование перебора элементов массива с помощью лямбда-выражений и вывод их
+
+            Console.ReadKey();
+        }
+        public static void Message()
+        {
+            Console.WriteLine("Ну привет");
+        }
+
+    }
+}
+

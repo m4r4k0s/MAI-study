@@ -1,0 +1,105 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace lab2
+{
+    class Program
+    {
+        class A
+        {
+
+            public A() { }
+            ~A() { }
+
+            public void mA() { Console.WriteLine("method of A"); }
+            public J jA { get { Console.Write("get j ->"); return j; } }
+            public B bA { get { Console.Write("get b ->"); return b; } }
+            public C cA { get { Console.Write("get c ->"); return c; } }
+
+            private B b = new B();
+            private C c = new C();
+            private J j = new J();
+        }
+
+        class B
+        {
+            public B() { }
+            ~B() { }
+            public void mB() { Console.WriteLine("method of B"); }
+
+            public K kA { get { Console.Write("get k ->"); return k; } }
+
+            private K k = new K();
+
+        }
+
+        class C
+        {
+            public C() { }
+            ~C() { }
+
+            public void mC() { Console.WriteLine("method of C"); }
+
+            public E eA { get { Console.Write("get e ->"); return e; } }
+            public F fA { get { Console.Write("get f ->"); return f; } }
+
+            private E e = new E();
+            private F f = new F();
+
+            public int c1 { get; set; }
+        }
+
+        class E
+        {
+            public E() { }
+            ~E() { }
+            public void mE() { Console.WriteLine("method of E"); }
+        }
+
+        class F
+        {
+            public F() { }
+            ~F() { }
+            public void mF() { Console.WriteLine("method of F"); }
+        }
+
+        class J
+        {
+            public J() { }
+            ~J() { }
+            public void mJ() { Console.WriteLine("method of J"); }
+        }
+
+        class K
+        {
+            public int k;
+            public K() { this.k = 15; }
+            ~K() { }
+            public void mK() { Console.Write("method of K"); Console.WriteLine(" k = " + k); }
+
+        }
+
+        static void Main(string[] args)
+        {
+            A a = new A();
+            //вкладываем в a
+            a.mA();
+            a.bA.mB();
+            a.cA.mC();
+            a.jA.mJ();
+
+            //вкладываем в a -> b - >k
+            a.bA.kA.mK();
+
+            //вкладываем в  a -> c - > e & a -> c ->f
+            a.cA.eA.mE();
+            a.cA.fA.mF();
+
+            Console.WriteLine(a.bA.kA.k);
+            Console.ReadKey();
+        }
+    }
+}

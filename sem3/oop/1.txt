@@ -1,0 +1,168 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace lab1_AgregationLink
+{
+    class Program
+    {
+        class A
+        {
+            public A(J j, B b, C c)
+            {
+                this.j = j;
+                this.b = b;
+                this.c = c;
+
+                c.cq = 21;
+            }
+
+            public void mA()
+            {
+                Console.WriteLine("method of A");
+            }
+            public J jA
+            {
+                set { Console.WriteLine("set j"); j = value; }
+                get { Console.Write("get j ->"); return j; }
+            }
+            public B bA
+            {
+                set { Console.WriteLine("set b"); b = value; }
+                get { Console.Write("get b ->"); return b; }
+            }
+            public C cA
+            {
+                set { Console.WriteLine("set c"); c = value; }
+                get { Console.Write("get c ->"); return c; }
+            }
+
+            private B b = null;
+            private C c = null;
+            private J j = null;
+        }
+
+        class J
+        {
+            public J() { }
+            ~J() { }
+            public void mJ()
+            {
+                Console.WriteLine("Method of J");
+            }
+        }
+
+        class B
+        {
+            public B(K k)
+            {
+                this.k = k;
+            }
+            public void mB()
+            {
+                Console.WriteLine("method of B");
+            }
+            public K kA
+            {
+                set { Console.WriteLine("set k"); k = value; }
+                get { Console.Write("get k ->"); return k; }
+            }
+
+            private K k = null;
+        }
+
+        class C
+        {
+            public C(E e, F f)
+            {
+                this.e = e;
+                this.f = f;
+            }
+            public void mC()
+            {
+                Console.WriteLine("method of C");
+            }
+
+            public E eA
+            {
+
+                set { Console.WriteLine("set e"); e = value; }
+                get { Console.Write("get e ->"); return e; }
+            }
+
+            public F fA
+            {
+                set { Console.WriteLine("set f"); f = value; }
+                get { Console.Write("get f ->"); return f; }
+            }
+
+            public int cq { get; set; }
+
+            private E e = null;
+            private F f = null;
+        }
+
+        class K
+        {
+            public K() { }
+            ~K() { }
+            public void mK()
+            {
+                Console.WriteLine("Method of K");
+            }
+        }
+
+        class E
+        {
+            public E() { }
+            ~E() { }
+            public void mE()
+            {
+                Console.WriteLine("Method of E");
+            }
+        }
+
+        class F
+        {
+            public F() { }
+            ~F() { }
+            public void mF()
+            {
+                Console.WriteLine("Method of F");
+            }
+        }
+
+
+
+        static void Main(string[] args)
+        {
+
+            E e = new E();
+            F f = new F();
+            J j = new J();
+            K k = new K();
+            B b = new B(k);
+            C c = new C(e, f);
+            A a = new A(j, b, c);
+
+            Console.WriteLine("печать атрибута доступа:");
+            Console.WriteLine(c.cq);
+
+            Console.WriteLine("передача по ссылке:");
+            a.mA();
+
+            a.bA.mB();
+            a.cA.mC();
+            a.jA.mJ();
+
+            a.bA.kA.mK();
+
+            a.cA.eA.mE();
+            a.cA.fA.mF();
+
+            Console.ReadKey();
+        }
+    }
+}
