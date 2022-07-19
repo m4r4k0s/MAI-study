@@ -1,0 +1,12 @@
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\делегат\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\Laba3_delegate.exe
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\делегат\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\Laba3_delegate.deps.json
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\делегат\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\Laba3_delegate.runtimeconfig.json
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\делегат\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\Laba3_delegate.runtimeconfig.dev.json
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\делегат\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\Laba3_delegate.dll
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\делегат\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\Laba3_delegate.pdb
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\делегат\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\Laba3_delegate.AssemblyInfoInputs.cache
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\делегат\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\Laba3_delegate.AssemblyInfo.cs
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\делегат\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\Laba3_delegate.csproj.CoreCompileInputs.cache
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\делегат\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\Laba3_delegate.dll
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\делегат\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\Laba3_delegate.pdb
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\делегат\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\Laba3_delegate.genruntimeconfig.cache

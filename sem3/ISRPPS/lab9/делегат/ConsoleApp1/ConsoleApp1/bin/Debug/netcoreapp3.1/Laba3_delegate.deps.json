@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Laba3_delegate/1.0.0": {
+        "runtime": {
+          "Laba3_delegate.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Laba3_delegate/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

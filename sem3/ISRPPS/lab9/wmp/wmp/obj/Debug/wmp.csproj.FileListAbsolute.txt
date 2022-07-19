@@ -1,0 +1,30 @@
+C:\Users\blkas\Desktop\books & doc\programs\wmp\wmp\bin\Debug\wmp.exe.config
+C:\Users\blkas\Desktop\books & doc\programs\wmp\wmp\bin\Debug\wmp.exe
+C:\Users\blkas\Desktop\books & doc\programs\wmp\wmp\bin\Debug\wmp.pdb
+C:\Users\blkas\Desktop\books & doc\programs\wmp\wmp\obj\Debug\wmp.csprojAssemblyReference.cache
+C:\Users\blkas\Desktop\books & doc\programs\wmp\wmp\obj\Debug\wmp.Form1.resources
+C:\Users\blkas\Desktop\books & doc\programs\wmp\wmp\obj\Debug\wmp.Properties.Resources.resources
+C:\Users\blkas\Desktop\books & doc\programs\wmp\wmp\obj\Debug\wmp.csproj.GenerateResource.cache
+C:\Users\blkas\Desktop\books & doc\programs\wmp\wmp\obj\Debug\wmp.csproj.CoreCompileInputs.cache
+C:\Users\blkas\Desktop\books & doc\programs\wmp\wmp\obj\Debug\wmp.exe
+C:\Users\blkas\Desktop\books & doc\programs\wmp\wmp\obj\Debug\wmp.pdb
+C:\Users\Sorjo\Downloads\wmp\wmp\bin\Debug\wmp.exe.config
+C:\Users\Sorjo\Downloads\wmp\wmp\bin\Debug\wmp.exe
+C:\Users\Sorjo\Downloads\wmp\wmp\bin\Debug\wmp.pdb
+C:\Users\Sorjo\Downloads\wmp\wmp\obj\Debug\wmp.csprojAssemblyReference.cache
+C:\Users\Sorjo\Downloads\wmp\wmp\obj\Debug\wmp.Form1.resources
+C:\Users\Sorjo\Downloads\wmp\wmp\obj\Debug\wmp.Properties.Resources.resources
+C:\Users\Sorjo\Downloads\wmp\wmp\obj\Debug\wmp.csproj.GenerateResource.cache
+C:\Users\Sorjo\Downloads\wmp\wmp\obj\Debug\wmp.csproj.CoreCompileInputs.cache
+C:\Users\Sorjo\Downloads\wmp\wmp\obj\Debug\wmp.exe
+C:\Users\Sorjo\Downloads\wmp\wmp\obj\Debug\wmp.pdb
+C:\Users\khahi\OneDrive\Рабочий стол\исрппс\wmp\wmp\bin\Debug\wmp.exe.config
+C:\Users\khahi\OneDrive\Рабочий стол\исрппс\wmp\wmp\bin\Debug\wmp.exe
+C:\Users\khahi\OneDrive\Рабочий стол\исрппс\wmp\wmp\bin\Debug\wmp.pdb
+C:\Users\khahi\OneDrive\Рабочий стол\исрппс\wmp\wmp\obj\Debug\wmp.csprojAssemblyReference.cache
+C:\Users\khahi\OneDrive\Рабочий стол\исрппс\wmp\wmp\obj\Debug\wmp.Form1.resources
+C:\Users\khahi\OneDrive\Рабочий стол\исрппс\wmp\wmp\obj\Debug\wmp.Properties.Resources.resources
+C:\Users\khahi\OneDrive\Рабочий стол\исрппс\wmp\wmp\obj\Debug\wmp.csproj.GenerateResource.cache
+C:\Users\khahi\OneDrive\Рабочий стол\исрппс\wmp\wmp\obj\Debug\wmp.csproj.CoreCompileInputs.cache
+C:\Users\khahi\OneDrive\Рабочий стол\исрппс\wmp\wmp\obj\Debug\wmp.exe
+C:\Users\khahi\OneDrive\Рабочий стол\исрппс\wmp\wmp\obj\Debug\wmp.pdb
