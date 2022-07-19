@@ -1,0 +1,17 @@
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba7_Chain-responsibility\bin\Debug\net5.0-windows\Laba7.exe
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba7_Chain-responsibility\bin\Debug\net5.0-windows\Laba7.deps.json
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba7_Chain-responsibility\bin\Debug\net5.0-windows\Laba7.runtimeconfig.json
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba7_Chain-responsibility\bin\Debug\net5.0-windows\Laba7.runtimeconfig.dev.json
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba7_Chain-responsibility\bin\Debug\net5.0-windows\Laba7.dll
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba7_Chain-responsibility\bin\Debug\net5.0-windows\ref\Laba7.dll
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba7_Chain-responsibility\bin\Debug\net5.0-windows\Laba7.pdb
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba7_Chain-responsibility\obj\Debug\net5.0-windows\Laba7_Chain_responsibility.Form1.resources
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba7_Chain-responsibility\obj\Debug\net5.0-windows\Laba7.csproj.GenerateResource.cache
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba7_Chain-responsibility\obj\Debug\net5.0-windows\Laba7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba7_Chain-responsibility\obj\Debug\net5.0-windows\Laba7.AssemblyInfoInputs.cache
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba7_Chain-responsibility\obj\Debug\net5.0-windows\Laba7.AssemblyInfo.cs
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba7_Chain-responsibility\obj\Debug\net5.0-windows\Laba7.csproj.CoreCompileInputs.cache
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba7_Chain-responsibility\obj\Debug\net5.0-windows\Laba7.dll
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba7_Chain-responsibility\obj\Debug\net5.0-windows\ref\Laba7.dll
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba7_Chain-responsibility\obj\Debug\net5.0-windows\Laba7.pdb
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba7_Chain-responsibility\obj\Debug\net5.0-windows\Laba7.genruntimeconfig.cache
