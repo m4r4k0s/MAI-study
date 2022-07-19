@@ -1,0 +1,17 @@
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba2\obj\Debug\net5.0-windows\Laba2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba2\obj\Debug\net5.0-windows\Laba2.AssemblyInfoInputs.cache
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba2\obj\Debug\net5.0-windows\Laba2.AssemblyInfo.cs
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba2\obj\Debug\net5.0-windows\Laba2.csproj.CoreCompileInputs.cache
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba2\bin\Debug\net5.0-windows\Laba2.exe
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba2\bin\Debug\net5.0-windows\Laba2.deps.json
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba2\bin\Debug\net5.0-windows\Laba2.runtimeconfig.json
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba2\bin\Debug\net5.0-windows\Laba2.runtimeconfig.dev.json
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba2\bin\Debug\net5.0-windows\Laba2.dll
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba2\bin\Debug\net5.0-windows\ref\Laba2.dll
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba2\bin\Debug\net5.0-windows\Laba2.pdb
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba2\obj\Debug\net5.0-windows\Laba2.Lab2.resources
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba2\obj\Debug\net5.0-windows\Laba2.csproj.GenerateResource.cache
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba2\obj\Debug\net5.0-windows\Laba2.dll
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba2\obj\Debug\net5.0-windows\ref\Laba2.dll
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba2\obj\Debug\net5.0-windows\Laba2.pdb
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba2\obj\Debug\net5.0-windows\Laba2.genruntimeconfig.cache

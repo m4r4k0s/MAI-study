@@ -1,0 +1,17 @@
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba2\bin\Debug\net5.0-windows\Laba4.exe
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba2\bin\Debug\net5.0-windows\Laba4.deps.json
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba2\bin\Debug\net5.0-windows\Laba4.runtimeconfig.json
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba2\bin\Debug\net5.0-windows\Laba4.runtimeconfig.dev.json
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba2\bin\Debug\net5.0-windows\Laba4.dll
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba2\bin\Debug\net5.0-windows\ref\Laba4.dll
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba2\bin\Debug\net5.0-windows\Laba4.pdb
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba2\obj\Debug\net5.0-windows\Laba2.Lab2.resources
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba2\obj\Debug\net5.0-windows\Laba4.csproj.GenerateResource.cache
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba2\obj\Debug\net5.0-windows\Laba4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba2\obj\Debug\net5.0-windows\Laba4.AssemblyInfoInputs.cache
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba2\obj\Debug\net5.0-windows\Laba4.AssemblyInfo.cs
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba2\obj\Debug\net5.0-windows\Laba4.csproj.CoreCompileInputs.cache
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba2\obj\Debug\net5.0-windows\Laba4.dll
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba2\obj\Debug\net5.0-windows\ref\Laba4.dll
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba2\obj\Debug\net5.0-windows\Laba4.pdb
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba2\obj\Debug\net5.0-windows\Laba4.genruntimeconfig.cache
