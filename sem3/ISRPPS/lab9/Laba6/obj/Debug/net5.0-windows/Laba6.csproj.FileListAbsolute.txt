@@ -1,0 +1,36 @@
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba6\bin\Debug\net5.0-windows\Laba6.exe
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba6\bin\Debug\net5.0-windows\Laba6.deps.json
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba6\bin\Debug\net5.0-windows\Laba6.runtimeconfig.json
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba6\bin\Debug\net5.0-windows\Laba6.runtimeconfig.dev.json
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba6\bin\Debug\net5.0-windows\Laba6.dll
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba6\bin\Debug\net5.0-windows\ref\Laba6.dll
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba6\bin\Debug\net5.0-windows\Laba6.pdb
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba6\obj\Debug\net5.0-windows\Laba6.Lab6.resources
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba6\obj\Debug\net5.0-windows\Laba6.csproj.GenerateResource.cache
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba6\obj\Debug\net5.0-windows\Laba6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba6\obj\Debug\net5.0-windows\Laba6.AssemblyInfoInputs.cache
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba6\obj\Debug\net5.0-windows\Laba6.AssemblyInfo.cs
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba6\obj\Debug\net5.0-windows\Laba6.csproj.CoreCompileInputs.cache
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba6\obj\Debug\net5.0-windows\Laba6.dll
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba6\obj\Debug\net5.0-windows\ref\Laba6.dll
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba6\obj\Debug\net5.0-windows\Laba6.pdb
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba6\obj\Debug\net5.0-windows\Laba6.genruntimeconfig.cache
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba6\obj\Debug\net5.0-windows\Laba6.csprojAssemblyReference.cache
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba6\bin\Debug\net5.0-windows\Laba6.exe
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba6\bin\Debug\net5.0-windows\Laba6.deps.json
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba6\bin\Debug\net5.0-windows\Laba6.runtimeconfig.json
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba6\bin\Debug\net5.0-windows\Laba6.runtimeconfig.dev.json
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba6\bin\Debug\net5.0-windows\Laba6.dll
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba6\bin\Debug\net5.0-windows\ref\Laba6.dll
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba6\bin\Debug\net5.0-windows\Laba6.pdb
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba6\obj\Debug\net5.0-windows\Laba6.csprojAssemblyReference.cache
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba6\obj\Debug\net5.0-windows\Laba6.Lab6.resources
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba6\obj\Debug\net5.0-windows\Laba6.csproj.GenerateResource.cache
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba6\obj\Debug\net5.0-windows\Laba6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba6\obj\Debug\net5.0-windows\Laba6.AssemblyInfoInputs.cache
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba6\obj\Debug\net5.0-windows\Laba6.AssemblyInfo.cs
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba6\obj\Debug\net5.0-windows\Laba6.csproj.CoreCompileInputs.cache
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba6\obj\Debug\net5.0-windows\Laba6.dll
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba6\obj\Debug\net5.0-windows\ref\Laba6.dll
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba6\obj\Debug\net5.0-windows\Laba6.pdb
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba6\obj\Debug\net5.0-windows\Laba6.genruntimeconfig.cache
