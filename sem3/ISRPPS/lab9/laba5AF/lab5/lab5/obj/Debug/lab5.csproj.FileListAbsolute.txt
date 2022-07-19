@@ -1,0 +1,56 @@
+D:\иср\laba5AF\lab5\lab5\bin\Debug\lab5.exe.config
+D:\иср\laba5AF\lab5\lab5\obj\Debug\lab5.csprojAssemblyReference.cache
+D:\иср\laba5AF\lab5\lab5\obj\Debug\lab5.Form1.resources
+D:\иср\laba5AF\lab5\lab5\obj\Debug\lab5.Properties.Resources.resources
+D:\иср\laba5AF\lab5\lab5\obj\Debug\lab5.vorkingProcess.resources
+D:\иср\laba5AF\lab5\lab5\obj\Debug\lab5.csproj.GenerateResource.cache
+D:\иср\laba5AF\lab5\lab5\obj\Debug\lab5.csproj.CoreCompileInputs.cache
+D:\иср\laba5AF\lab5\lab5\bin\Debug\lab5.exe
+D:\иср\laba5AF\lab5\lab5\bin\Debug\lab5.pdb
+D:\иср\laba5AF\lab5\lab5\bin\Debug\FactoryLibrary.dll
+D:\иср\laba5AF\lab5\lab5\bin\Debug\FactoryLibrary.pdb
+D:\иср\laba5AF\lab5\lab5\obj\Debug\lab5.csproj.CopyComplete
+D:\иср\laba5AF\lab5\lab5\obj\Debug\lab5.exe
+D:\иср\laba5AF\lab5\lab5\obj\Debug\lab5.pdb
+C:\Users\khahi\OneDrive\Рабочий стол\xyz\laba5AF\lab5\lab5\bin\Debug\lab5.exe.config
+C:\Users\khahi\OneDrive\Рабочий стол\xyz\laba5AF\lab5\lab5\bin\Debug\lab5.exe
+C:\Users\khahi\OneDrive\Рабочий стол\xyz\laba5AF\lab5\lab5\bin\Debug\lab5.pdb
+C:\Users\khahi\OneDrive\Рабочий стол\xyz\laba5AF\lab5\lab5\bin\Debug\FactoryLibrary.dll
+C:\Users\khahi\OneDrive\Рабочий стол\xyz\laba5AF\lab5\lab5\bin\Debug\FactoryLibrary.pdb
+C:\Users\khahi\OneDrive\Рабочий стол\xyz\laba5AF\lab5\lab5\obj\Debug\lab5.csprojAssemblyReference.cache
+C:\Users\khahi\OneDrive\Рабочий стол\xyz\laba5AF\lab5\lab5\obj\Debug\lab5.Form1.resources
+C:\Users\khahi\OneDrive\Рабочий стол\xyz\laba5AF\lab5\lab5\obj\Debug\lab5.Properties.Resources.resources
+C:\Users\khahi\OneDrive\Рабочий стол\xyz\laba5AF\lab5\lab5\obj\Debug\lab5.vorkingProcess.resources
+C:\Users\khahi\OneDrive\Рабочий стол\xyz\laba5AF\lab5\lab5\obj\Debug\lab5.csproj.GenerateResource.cache
+C:\Users\khahi\OneDrive\Рабочий стол\xyz\laba5AF\lab5\lab5\obj\Debug\lab5.csproj.CoreCompileInputs.cache
+C:\Users\khahi\OneDrive\Рабочий стол\xyz\laba5AF\lab5\lab5\obj\Debug\lab5.csproj.CopyComplete
+C:\Users\khahi\OneDrive\Рабочий стол\xyz\laba5AF\lab5\lab5\obj\Debug\lab5.exe
+C:\Users\khahi\OneDrive\Рабочий стол\xyz\laba5AF\lab5\lab5\obj\Debug\lab5.pdb
+C:\Users\khahi\OneDrive\Рабочий стол\исрппс\laba5AF\lab5\lab5\bin\Debug\lab5.exe.config
+C:\Users\khahi\OneDrive\Рабочий стол\исрппс\laba5AF\lab5\lab5\bin\Debug\lab5.exe
+C:\Users\khahi\OneDrive\Рабочий стол\исрппс\laba5AF\lab5\lab5\bin\Debug\lab5.pdb
+C:\Users\khahi\OneDrive\Рабочий стол\исрппс\laba5AF\lab5\lab5\bin\Debug\FactoryLibrary.dll
+C:\Users\khahi\OneDrive\Рабочий стол\исрппс\laba5AF\lab5\lab5\bin\Debug\FactoryLibrary.pdb
+C:\Users\khahi\OneDrive\Рабочий стол\исрппс\laba5AF\lab5\lab5\obj\Debug\lab5.csprojAssemblyReference.cache
+C:\Users\khahi\OneDrive\Рабочий стол\исрппс\laba5AF\lab5\lab5\obj\Debug\lab5.Form1.resources
+C:\Users\khahi\OneDrive\Рабочий стол\исрппс\laba5AF\lab5\lab5\obj\Debug\lab5.Properties.Resources.resources
+C:\Users\khahi\OneDrive\Рабочий стол\исрппс\laba5AF\lab5\lab5\obj\Debug\lab5.vorkingProcess.resources
+C:\Users\khahi\OneDrive\Рабочий стол\исрппс\laba5AF\lab5\lab5\obj\Debug\lab5.csproj.GenerateResource.cache
+C:\Users\khahi\OneDrive\Рабочий стол\исрппс\laba5AF\lab5\lab5\obj\Debug\lab5.csproj.CoreCompileInputs.cache
+C:\Users\khahi\OneDrive\Рабочий стол\исрппс\laba5AF\lab5\lab5\obj\Debug\lab5.csproj.CopyComplete
+C:\Users\khahi\OneDrive\Рабочий стол\исрппс\laba5AF\lab5\lab5\obj\Debug\lab5.exe
+C:\Users\khahi\OneDrive\Рабочий стол\исрппс\laba5AF\lab5\lab5\obj\Debug\lab5.pdb
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\laba5AF\lab5\lab5\bin\Debug\lab5.exe.config
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\laba5AF\lab5\lab5\bin\Debug\lab5.exe
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\laba5AF\lab5\lab5\bin\Debug\lab5.pdb
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\laba5AF\lab5\lab5\bin\Debug\FactoryLibrary.dll
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\laba5AF\lab5\lab5\bin\Debug\FactoryLibrary.pdb
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\laba5AF\lab5\lab5\obj\Debug\lab5.csprojAssemblyReference.cache
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\laba5AF\lab5\lab5\obj\Debug\lab5.Form1.resources
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\laba5AF\lab5\lab5\obj\Debug\lab5.Properties.Resources.resources
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\laba5AF\lab5\lab5\obj\Debug\lab5.vorkingProcess.resources
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\laba5AF\lab5\lab5\obj\Debug\lab5.csproj.GenerateResource.cache
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\laba5AF\lab5\lab5\obj\Debug\lab5.csproj.CoreCompileInputs.cache
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\laba5AF\lab5\lab5\obj\Debug\lab5.csproj.CopyComplete
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\laba5AF\lab5\lab5\obj\Debug\lab5.exe
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\laba5AF\lab5\lab5\obj\Debug\lab5.pdb
