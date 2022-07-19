@@ -1,0 +1,36 @@
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba4\bin\Debug\net5.0-windows\Laba4_Sing_Factory.exe
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba4\bin\Debug\net5.0-windows\Laba4_Sing_Factory.deps.json
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba4\bin\Debug\net5.0-windows\Laba4_Sing_Factory.runtimeconfig.json
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba4\bin\Debug\net5.0-windows\Laba4_Sing_Factory.runtimeconfig.dev.json
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba4\bin\Debug\net5.0-windows\Laba4_Sing_Factory.dll
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba4\bin\Debug\net5.0-windows\ref\Laba4_Sing_Factory.dll
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba4\bin\Debug\net5.0-windows\Laba4_Sing_Factory.pdb
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba4\obj\Debug\net5.0-windows\Laba4_Sing_Factory.csprojAssemblyReference.cache
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba4\obj\Debug\net5.0-windows\Laba4.Form1.resources
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba4\obj\Debug\net5.0-windows\Laba4_Sing_Factory.csproj.GenerateResource.cache
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba4\obj\Debug\net5.0-windows\Laba4_Sing_Factory.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba4\obj\Debug\net5.0-windows\Laba4_Sing_Factory.AssemblyInfoInputs.cache
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba4\obj\Debug\net5.0-windows\Laba4_Sing_Factory.AssemblyInfo.cs
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba4\obj\Debug\net5.0-windows\Laba4_Sing_Factory.csproj.CoreCompileInputs.cache
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba4\obj\Debug\net5.0-windows\Laba4_Sing_Factory.dll
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba4\obj\Debug\net5.0-windows\ref\Laba4_Sing_Factory.dll
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba4\obj\Debug\net5.0-windows\Laba4_Sing_Factory.pdb
+C:\Users\nikit\Desktop\ДОЛГ_3_СЕМ\ISRPPS\Laba4\obj\Debug\net5.0-windows\Laba4_Sing_Factory.genruntimeconfig.cache
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba4\bin\Debug\net5.0-windows\Laba4_Sing_Factory.exe
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba4\bin\Debug\net5.0-windows\Laba4_Sing_Factory.deps.json
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba4\bin\Debug\net5.0-windows\Laba4_Sing_Factory.runtimeconfig.json
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba4\bin\Debug\net5.0-windows\Laba4_Sing_Factory.runtimeconfig.dev.json
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba4\bin\Debug\net5.0-windows\Laba4_Sing_Factory.dll
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba4\bin\Debug\net5.0-windows\ref\Laba4_Sing_Factory.dll
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba4\bin\Debug\net5.0-windows\Laba4_Sing_Factory.pdb
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba4\obj\Debug\net5.0-windows\Laba4_Sing_Factory.csprojAssemblyReference.cache
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba4\obj\Debug\net5.0-windows\Laba4.Form1.resources
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba4\obj\Debug\net5.0-windows\Laba4_Sing_Factory.csproj.GenerateResource.cache
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba4\obj\Debug\net5.0-windows\Laba4_Sing_Factory.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba4\obj\Debug\net5.0-windows\Laba4_Sing_Factory.AssemblyInfoInputs.cache
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba4\obj\Debug\net5.0-windows\Laba4_Sing_Factory.AssemblyInfo.cs
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba4\obj\Debug\net5.0-windows\Laba4_Sing_Factory.csproj.CoreCompileInputs.cache
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba4\obj\Debug\net5.0-windows\Laba4_Sing_Factory.dll
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba4\obj\Debug\net5.0-windows\ref\Laba4_Sing_Factory.dll
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba4\obj\Debug\net5.0-windows\Laba4_Sing_Factory.pdb
+C:\Users\khahi\OneDrive\Рабочий стол\ISRPPS\Laba4\obj\Debug\net5.0-windows\Laba4_Sing_Factory.genruntimeconfig.cache
