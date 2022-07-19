@@ -1,0 +1,161 @@
+\documentclass[12pt]{article}
+\usepackage{mathtext}
+\usepackage{amsmath}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage[left=1.5cm, right=1.5cm, top=2cm, bottom=2cm, bindingoffset=0cm]{geometry}
+\usepackage{listings}
+\usepackage{fancyhdr}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.9}
+
+
+
+\begin{document}
+    \pagestyle{fancy} 
+        \fancyhead{}
+        \fancyhead[L]{Хахин Максим}
+        \fancyhead[R]{М8О-403Б-18} 
+    \fancyfoot{}
+
+    \begin{center}  \textbf{Разложение ДУ в ряд.} \end{center}
+    Диференциальное уравнение с частными производными параболического типа в общем виде записывается следующим образом: 
+    $$\frac{\delta u}{\delta t} =a\frac{\delta^2 u}{\delta x^2}+b\frac{\delta u}{\delta x}+cu+f(x,t)$$
+    \begin{enumerate}
+    \item Для явной разностной схемы.
+        \\Воспользуемся методами численного диференциирования и разложим каждый член уравнения имеющий производную в конечную сумму:
+        \begin{itemize}
+            \item $\frac{\delta u}{\delta t}=\frac{u_i^{k+1}-u_i^{k}}{\tau}$, где  $\tau$ - шаг по временной сетке;
+            \item $a\frac{\delta^2 u}{\delta x^2} = a\frac{u_{i-1}^k-2u_{i}^k+u_{i+1}^k}{h^2}$, где  $h$ - шаг по пространственной сетке;
+            \item $b\frac{\delta u}{\delta x} = b\frac{u_{i+1}^k-u_{i-1}^k}{2h}$;
+            \item $cu = cu_{i}^k$;
+        \end{itemize}
+        Переппишем исходное уравнение:
+        $$\frac{u_i^{k+1}-u_i^{k}}{\tau} =a\frac{u_{i-1}^k-2u_{i}^k+u_{i+1}^k}{h^2}+b\frac{u_{i+1}^k-u_{i-1}^k}{2h}+cu_{i}^k+f(x,t).$$
+        Сгруппируем коэффицениты при u с одинаковыми индексами:
+        $$u_i^{k+1} = \left(\frac{a}{h^2}-\frac{b}{2h} \right)u_{i-1}^k\tau + \left(c+\frac{1}{\tau}-\frac{2a}{h^2}\right)u_i^k\tau +
+        \left(\frac{a}{h^2}+\frac{b}{2h}\right)u_{i+1}^k\tau+f(x,t)\tau.$$
+        Непосредственно из этого уравнения находится значение функции на временном уровне k+1.
+    \item Для не явной разностной схемы.
+        \\Воспользуемся методами численного диференциирования и разложим каждый член уравнения имеющий производную в конечную сумму:
+        \begin{itemize}
+            \item $\frac{\delta u}{\delta t}=\frac{u_i^{k+1}-u_i^{k}}{\tau}$, где  $\tau$ - шаг по временной сетке;
+            \item $a\frac{\delta^2 u}{\delta x^2} = a\frac{u_{i-1}^{k+1}-2u_{i}^{k+1}+u_{i+1}^{k+1}}{h^2}$, где  $h$ - шаг по пространственной сетке;
+            \item $b\frac{\delta u}{\delta x} = b\frac{u_{i+1}^{k+1}-u_{i-1}^{k+1}}{2h}$;
+            \item $cu = cu_{i}^{k+1}$;
+        \end{itemize}
+        Переппишем исходное уравнение:
+        $$\frac{u_i^{k+1}-u_i^{k}}{\tau} =a\frac{u_{i-1}^{k+1}-2u_{i}^{k+1}+u_{i+1}^{k+1}}{h^2}+b\frac{u_{i+1}^{k+1}-u_{i-1}^{k+1}}{2h}+cu_{i}^{k+1}+f(x,t).$$
+        Сгруппируем коэффицениты при u с одинаковыми индексами:
+        $$u_i^{k}+f(x,t)\tau = \left(\frac{b}{2h}-\frac{a}{h^2} \right)u_{i-1}^{k+1}\tau + \left(\frac{1}{\tau}+\frac{2a}{h^2}-c\right)u_i^{k+1}\tau -
+        \left(\frac{a}{h^2}+\frac{b}{2h}\right)u_{i+1}^{k+1}\tau.$$
+        Для нахождения значений функции u на уровне k+1 необходимо решить систему уравнеий:
+        \begin{equation*}
+            \begin{cases}
+                i=1;\:\:\: ...
+                \\
+                i=\overline{2,N-1};\:\:\:Au_{i-1}^{k+1} + Bu_i^{k+1} +Cu_{i+1}^{k+1}=d_i
+                \\
+                i=N;\:\:\: ...
+            \end{cases}
+        \end{equation*}
+        где $A = \left(\frac{b}{2h}-\frac{a}{h^2} \right)\tau$, $B = \left(\frac{1}{\tau}+\frac{2a}{h^2}-c\right)\tau$, $C = -\left(\frac{a}{h^2}+\frac{b}{2h}\right)\tau$, 
+        $d = u_i^{k}+f(x,t)\tau$.\\
+        Формирование уравнеий при i=1 и i=N рассмотрим в разделе посвященном краевые условия.
+    \end{enumerate}
+    \textbf{Примечание.}
+    \emph{Во всех формулах приведенных выше рассматривается $i \in [2,N-1]$, где N - количекство узлов в сетке по координате x.}
+
+    \begin{center}  \textbf{Краевые условия.} \end{center}
+    Краевые условия могут принимать вид:
+    \begin{enumerate}
+        \item Условия первого рода:
+            \begin{equation*}
+                \begin{cases}
+                    \beta u(0,x) = \phi_l(t)
+                    \\
+                    \delta u(l,x) = \phi_r(t)
+                \end{cases}
+            \end{equation*}
+            В таком случае $u_1^{k+1}$ и $u_N^{k+1}$ находятся по формуле:
+            \begin{itemize}
+                \item Для явной разностной схемы\\
+                $u_1^{k+1}=\frac{\phi_l(t)}{\beta}$, $u_N^{k+1}=\frac{\phi_r(t)}{\delta}$.
+                \item Для не явной разностной схемы\\
+                \begin{equation*}
+                    \begin{cases}
+                        i=1;\:\:\: \beta u_1^{k+1} +0u_{2}^{k+1}=\phi_l(t)
+                        \\
+                        i=\overline{2,N-1};\:\:\:Au_{i-1}^{k+1} + Bu_i^{k+1} +Cu_{i+1}^{k+1}=d_i
+                        \\
+                        i=N;\:\:\: 0u_{N-1}^{k+1} + \delta u_N^{k+1} = \phi_r(t)
+                    \end{cases},
+                \end{equation*}
+            \end{itemize}
+
+        \item Условия второго рода:
+            \begin{equation*}
+                \begin{cases}
+                    \frac{\delta u}{\delta x}(0,x) = \frac{\phi_l(t)}{\alpha}
+                    \\
+                    \frac{\delta u}{\delta x}(l,x) = \frac{\phi_r(t)}{\gamma}
+                \end{cases}
+                \Leftrightarrow
+                \begin{cases}
+                    \frac{u_{2}^{k+1}-u_{1}^{k+1}}{h}(0,x) = \frac{\phi_l(t)}{\alpha}
+                    \\
+                    \frac{u_{N}^{k+1}-u_{N-1}^{k+1}}{h}(l,x) = \frac{\phi_r(t)}{\gamma}
+                \end{cases}
+            \end{equation*}
+            В таком случае $u_1^{k+1}$ и $u_N^{k+1}$ находятся по формуле:
+            \begin{itemize}
+                \item Для явной разностной схемы\\
+                $u_1^{k+1}=u_2^{k+1}-h\frac{\phi_l(t)}{\alpha}$, $u_N^{k+1}=u_{N-1}^{k+1}+h\frac{\phi_r(t)}{\gamma}$.
+                \item Для не явной разностной схемы\\
+                \begin{equation*}
+                    \begin{cases}
+                        i=1;\:\:\: -\frac{\alpha}{h}u_1^{k+1} +\frac{\alpha}{h}u_{2}^{k+1}=\phi_l(t)
+                        \\
+                        i=\overline{2,N-1};\:\:\:Au_{i-1}^{k+1} + Bu_i^{k+1} +Cu_{i+1}^{k+1}=d_i
+                        \\
+                        i=N;\:\:\: -\frac{\gamma}{h}u_{N-1}^{k+1} +\frac{\gamma}{h}u_{N}^{k+1}=\phi_r(t)
+                    \end{cases},
+                \end{equation*}
+            \end{itemize}
+        
+        \item Условия третьего рода:
+            \begin{equation*}
+                \begin{cases}
+                    \alpha\frac{\delta u}{\delta x}(0,x) + \beta u(0,x)= \phi_l(t)
+                    \\
+                    \gamma\frac{\delta u}{\delta x}(l,x) + \delta u(l,x)= \phi_r(t)
+                \end{cases}
+                \Leftrightarrow
+                \begin{cases}
+                    \alpha\frac{u_{2}^{k+1}-u_{1}^{k+1}}{h}(0,x) + \beta u_{1}^{k+1} = \phi_l(t)
+                    \\
+                    \gamma\frac{u_{N}^{k+1}-u_{N-1}^{k+1}}{h}(l,x) + \delta u_{N}^{k+1}= \phi_r(t)
+                \end{cases}
+            \end{equation*}
+            В таком случае $u_1^{k+1}$ и $u_N^{k+1}$ находятся по формуле:
+            \begin{itemize}
+                \item Для явной разностной схемы\\
+                $u_1^{k+1}=\frac{\phi_l(t)-\frac{\alpha}{h}u_2^{k+1}}{\beta-\frac{\alpha}{h}}$, 
+                $u_N^{k+1}=\frac{\phi_r(t)+\frac{\gamma}{h}n_{N-1}^{k+1}}{\delta+\frac{\gamma}{h}}$.
+                \item Для не явной разностной схемы\\
+                \begin{equation*}
+                    \begin{cases}
+                        i=1;\:\:\: \left(\beta-\frac{\alpha}{h}\right)u_1^{k+1} +\frac{\alpha}{h}u_{2}^{k+1}=\phi_l(t)
+                        \\
+                        i=\overline{2,N-1};\:\:\:Au_{i-1}^{k+1} + Bu_i^{k+1} +Cu_{i+1}^{k+1}=d_i
+                        \\
+                        i=N;\:\:\: -\frac{\gamma}{h}u_{N-1}^{k+1} + \left(\delta+\frac{\gamma}{h}\right)u_N^{k+1} =\phi_r(t)
+                    \end{cases},
+                \end{equation*}
+            \end{itemize}
+    \end{enumerate}
+    \textbf{Примечание.}
+    \emph{в разборе приведена апроксимация краевых условий с производной по 2 точкам с 1 порядком точности. Так же можно апроксимировать краевое 
+    условие по 3 точкам с точностью 2 и по 2 точкам с точностью 2.}
+\end{document}
