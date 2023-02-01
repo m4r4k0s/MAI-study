@@ -40,7 +40,7 @@ U = []
 
 def plotSlice(f, X, y, t):
     plt.subplot(2, 1, 1)
-    plt.plot(X, f(X, y, t),label = 'Anal KArnaval')
+    plt.plot(X, f(X, y, t),label = 'Analit')
     plt.legend()
     plt.grid
 
@@ -50,7 +50,7 @@ def showPostProcess(t, y):
     X = np.linspace(0, lx, nx)
     plotSlice(fResult, X, y * hy, ht * t * 2)
     plt.subplot(2, 1, 1)
-    plt.plot(X, U[i*t, :, y],   label = 'Ne Anal Karnaval (((')
+    plt.plot(X, U[i*t, :, y],   label = 'Ne Analit')
     plt.xlabel('Момент времени: %.5f' % (t))
     plt.legend()
     plt.grid
